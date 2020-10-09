@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Registrtion Form
+        </title>
+    </head>
+    <body>
+        <div class="body-content">
+              <h1>Create an account</h1>
+              <form class="form" >
+                  <label for="username">Username</label>
+                  <input type="text" placeholder="User Name" name="username" required /><br>
+                  <label for="email">Email</label>
+                  <input type="email" placeholder="Email" name="email" required /><br>
+                  <label for="address">Address</label>
+                  <textarea name="address" rows="4" cols="30" placeholder="Address" required></textarea><br>
+                  <label for="password">Password</label>
+                  <input type="password" placeholder="Password" name="password" autocomplete="new-password" required /><br>
+                  <label for="confirmpassword">Confirm Password</label>
+                  <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required /><br>
+                  <label for="avatar">Select avatar for profile</label>
+                  <input type="file" name="avatar" accept="image/*"><br>
+                  <input type="submit" value="Register" name="register" onclick="alert('Confirm Submission of Form')" />
+                  <input type="reset" value="Reset" name="reset"/>
+              </form>
+          </div>
+    </body>
+</html>
